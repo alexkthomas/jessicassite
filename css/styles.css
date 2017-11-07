@@ -1,0 +1,68 @@
+/* =================================
+  Base Element Styles
+==================================== */
+
+body {
+	line-height: 1.6;
+	background-color: #F0FFF0;
+	font-family: 'Spirax';
+
+	}
+
+a, li{
+	text-color: Green;
+  background-color: Lightblue;
+	text-align: center;
+	list-style-position: outside;
+	font-size: 24px;
+
+}
+h1 {
+	font-size: 30px;
+}
+p {
+  background-color: GreenYellow;
+  text: DarkOrange;
+
+}
+
+ul{
+	text-color: green;
+}
+
+/* =================================
+  Base Layout Styles
+==================================== */
+
+/* ---- Layout Containers ---- */
+
+
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+	text: LightBlue;
+	text-decoration: none;
+}
+
+.main-header {
+	background: Lightblue;
+	text-color: Green;
+}
+
+.main-nav{
+text:Green;
+}
+
+.main-footer {
+	padding: 2em 0;
+	background: Indigo;
+}
+
+#parent #popup {
+  display: none;
+}
+
+#parent:hover #popup {
+  display: block;
+}
