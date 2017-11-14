@@ -1,3 +1,7 @@
+/* =================================
+  <!--Base Layout Styles -->
+==================================== */
+
 body {
   background: #2f558e url(/home/alex/Documents/Codeloufilessept2017/Jessicassite/img/maxresdefault.jpg) repeat 0 0;
   background-size: 400px auto;
@@ -8,6 +12,10 @@ img {
   width: 150px;
   margin: 50px auto;
 }
+
+/* =================================
+  <!--Button  Styles -->
+==================================== */
 button {
   background: #dae1e4;
   border: none;
@@ -20,7 +28,7 @@ button {
   outline: none;
   cursor: pointer;
 }
-.spoiler {
+.synopsis {
 	background: #1d3c6a;
   width: 440px;
   margin: 0 auto 20px;
@@ -29,7 +37,7 @@ button {
   text-align: center;
   font-size: 16px
 }
-.spoiler span {
+.synopsis span {
   color: #dae1e4;
 }
 

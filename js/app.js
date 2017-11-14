@@ -1,9 +1,9 @@
 
 
 //1, Hide synopsis
-$(".spoiler span").hide();
+$(".synopsis span").hide();
 //2, Add a button
-$(".spoiler").append("<button>Synopsis</button>");
+$(".synopsis").append("<button>Synopsis</button>");
 //3, When button pressed
 $("button").click(function(){
   //3.1, Show synopsis next to the button clicked
