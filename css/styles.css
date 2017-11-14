@@ -1,68 +1,78 @@
 /* =================================
-  Base Element Styles
+  Base Layout Styles
 ==================================== */
 
 body {
 	line-height: 1.6;
-	background-color: #F0FFF0;
+	color: white;
 	font-family: 'Spirax';
+	background-image: url(/home/alex/Documents/Codeloufilessept2017/Jessicassite/img/stones_ebook.jpg);
+		}
 
-	}
-
-a, li{
-	text-color: Green;
-  background-color: Lightblue;
-	text-align: center;
-	list-style-position: outside;
+a{
+	color: white;
+	text-align: right;
+	list-style: none;
 	font-size: 24px;
+}
+
+li {
+list-style:none;
 
 }
 h1 {
+	color: white;
 	font-size: 30px;
 }
 p {
-  background-color: GreenYellow;
-  text: DarkOrange;
+  color: white;
 
 }
 
 ul{
-	text-color: green;
+	color: white;
 }
 
-/* =================================
-  Base Layout Styles
-==================================== */
+h2 { color:white;
+
+}
+
+@media only screen and (max-width: 488px) {
+    img .portrait {
+        width: 100%;
+    }
+		@media only screen and (min-width: 489px) and (max-width: 788px) {
+		   img .portrait {
+		        width: 50%;
+						height: 25%;
+						;
+		    }
+				@media only screen and (max-width: 1140px) {
+				    img .portrait {
+				        width: 50%;
+								height: 25%;
+				    }
+}
 
 /* ---- Layout Containers ---- */
+.name {
+text: 30px;
 
-
+}
 
 .wrapper {
 	width: 100%;
 	margin: 0 auto;
-	text: LightBlue;
-	text-decoration: none;
-}
+	text: #F0FFF0;
+	}
 
 .main-header {
-	background: Lightblue;
-	text-color: Green;
-}
+	text: 28px;
 
-.main-nav{
-text:Green;
 }
 
 .main-footer {
-	padding: 2em 0;
+	padding: 1em 0;
+	line-height: normal;
 	background: Indigo;
-}
-
-#parent #popup {
-  display: none;
-}
-
-#parent:hover #popup {
-  display: block;
 }

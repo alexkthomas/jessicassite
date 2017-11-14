@@ -1,8 +1,8 @@
 body {
-  background: #2f558e url(../img/bg.png) repeat 0 0;
+  background: #2f558e url(/home/alex/Documents/Codeloufilessept2017/Jessicassite/img/maxresdefault.jpg) repeat 0 0;
   background-size: 400px auto;
-  font-family: sans-serif;
-}
+  font-family: 'Spirax';
+   }
 img {
   display: block;
   width: 150px;
@@ -31,4 +31,11 @@ button {
 }
 .spoiler span {
   color: #dae1e4;
+}
+
+a{
+	color: white;
+	text-align: right;
+	list-style: none;
+	font-size: 24px;
 }
